@@ -6,7 +6,7 @@ int main (){
 
         int x{};
         cin>>x;
-        if (x%4 == 0 || x%4 == 2)
+        if (x%2 == 0 && x!=2)
         {
             cout<<"YES";
         }
